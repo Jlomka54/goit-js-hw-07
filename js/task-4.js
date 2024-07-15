@@ -1,7 +1,7 @@
 const registerForm = document.querySelector(".login-form");
 registerForm.addEventListener("submit", (event) => {
     event.preventDefault();
-    const form = event.curentTarget;
+    const form = event.currentTarget;
     const userEmail = form.elements.email.value.trim();
     const userPassword = form.elements.password.value.trim();
     if (userEmail === '' || userPassword === '') {
